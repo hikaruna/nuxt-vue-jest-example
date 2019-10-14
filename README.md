@@ -12,6 +12,10 @@ docker > preferences > docker entine
 
 ```diff
 + "experimental": true,
++  "features": {
++    "buildkit": true
++  }
+
 ```
 
 ### Launch Vscode remote development open in container
