@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "dev": "nuxt ts",
+    "test:unit": "jest"
+  },
+  "dependencies": {
+    "@nuxt/typescript-runtime": "^0.2.1",
+    "nuxt": "^2.10.1",
+    "nuxt-property-decorator": "^2.4.0"
+  },
+  "devDependencies": {
+    "@nuxt/typescript-build": "^0.3.1",
+    "@types/jest": "^24.0.18",
+    "@vue/test-utils": "^1.0.0-beta.29",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
+    "vue-jest": "4.0.0-beta.2"
+  }
+}
