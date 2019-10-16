@@ -4,6 +4,6 @@ import IndexPage from '~/pages/index.vue'
 describe('index.vue', () => {
   test('renders "hello world"', () => {
     const wrapper = shallowMount(IndexPage)
-    expect(wrapper.text()).toMatch("hello world")
+    expect(wrapper.element).toMatchSnapshot();
   })
 })
